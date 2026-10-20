@@ -1,0 +1,4 @@
+- [x] Update config/session.php: make regenerateSession() robust (always regenerate once on login; set created timestamp)
+- [x] Update auth/login_process.php: only set login_username when username is non-empty; keep session handling consistent
+- [x] Run a quick PHP syntax check (php -l) on modified files
+- [ ] Confirm login redirect + error flow behavior
